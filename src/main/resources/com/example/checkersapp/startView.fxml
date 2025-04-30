@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Label layoutX="93.0" layoutY="43.0" text="Welcome To Checkers!">
+         <font>
+            <Font size="38.0" />
+         </font>
+      </Label>
+      <Label layoutX="43.0" layoutY="118.0" text="Join Server:" />
+      <TextField layoutX="118.0" layoutY="114.0" promptText="Server Adress" />
+      <TextField layoutX="300.0" layoutY="115.0" promptText="Server Port" />
+   </children>
+</Pane>
