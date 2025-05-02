@@ -3,7 +3,7 @@ package com.example.checkersapp;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
-public class HelloController {
+public class PlayController {
     @FXML
     private Label welcomeText;
 
