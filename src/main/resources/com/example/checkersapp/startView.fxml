@@ -6,20 +6,26 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: A1ACAC;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <Label layoutX="93.0" layoutY="43.0" text="Welcome To Checkers!">
          <font>
             <Font size="38.0" />
          </font>
       </Label>
-      <Label layoutX="43.0" layoutY="118.0" text="Join Server:" />
-      <TextField layoutX="118.0" layoutY="114.0" promptText="Server Address" />
-      <TextField layoutX="300.0" layoutY="115.0" promptText="Server Port" />
-      <Label layoutX="23.0" layoutY="249.0" prefHeight="17.0" prefWidth="84.0" text="Create Server:" />
-      <TextField layoutX="307.0" layoutY="245.0" promptText="Port" />
-      <Button layoutX="320.0" layoutY="200.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" text="Generate Port" />
-      <TextField layoutX="118.0" layoutY="245.0" promptText="Server Address" />
-      <Button layoutX="142.0" layoutY="200.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="112.0" text="Pull Address" />
+      <Label layoutX="43.0" layoutY="118.0" text="Join Server:">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <TextField layoutX="135.0" layoutY="115.0" promptText="Server Address" />
+      <TextField layoutX="307.0" layoutY="115.0" promptText="Server Port" />
+      <Label layoutX="23.0" layoutY="249.0" prefHeight="20.0" prefWidth="112.0" text="Create Server:">
+         <font>
+            <Font size="16.0" />
+         </font></Label>
+      <TextField layoutX="352.0" layoutY="245.0" promptText="Port" />
+      <Button layoutX="364.0" layoutY="213.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="135.0" style="-fx-background-color: #e785ff;" text="Generate Port" />
+      <TextField layoutX="148.0" layoutY="246.0" promptText="Server Address" />
+      <Button layoutX="172.0" layoutY="213.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="112.0" style="-fx-background-color: #90ff92;" text="Pull Address" />
    </children>
 </Pane>
