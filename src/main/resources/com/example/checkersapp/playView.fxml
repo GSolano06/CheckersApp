@@ -75,110 +75,110 @@
       <Rectangle fx:id="h4" arcHeight="5.0" arcWidth="5.0" fill="#90ff92" height="65.0" layoutX="492.0" layoutY="337.0" stroke="#90ff92" strokeMiterLimit="0.0" strokeType="INSIDE" width="63.0" />
       <Rectangle fx:id="h1" arcHeight="5.0" arcWidth="5.0" fill="#e785ff" height="65.0" layoutX="492.0" layoutY="532.0" stroke="#e785ff" strokeMiterLimit="0.0" strokeType="INSIDE" width="63.0" />
       <Rectangle fx:id="h2" arcHeight="5.0" arcWidth="5.0" fill="#90ff92" height="65.0" layoutX="492.0" layoutY="467.0" stroke="#90ff92" strokeMiterLimit="0.0" strokeType="INSIDE" width="63.0" />
-      <Label layoutX="24.0" layoutY="98.0" prefHeight="21.0" prefWidth="11.0" text="8" textFill="#bf0e0e">
+      <Label fx:id="Label8" layoutX="24.0" layoutY="98.0" prefHeight="21.0" prefWidth="11.0" text="8" textFill="#bf0e0e">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="24.0" layoutY="163.0" prefHeight="21.0" prefWidth="11.0" text="7" textFill="#bf0e0e">
+      <Label fx:id="Label7" layoutX="24.0" layoutY="163.0" prefHeight="21.0" prefWidth="11.0" text="7" textFill="#bf0e0e">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="24.0" layoutY="228.0" prefHeight="21.0" prefWidth="11.0" text="6" textFill="#bf0e0e">
+      <Label fx:id="Label6" layoutX="24.0" layoutY="228.0" prefHeight="21.0" prefWidth="11.0" text="6" textFill="#bf0e0e">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="24.0" layoutY="293.0" prefHeight="21.0" prefWidth="11.0" text="5" textFill="#bf0e0e">
+      <Label fx:id="Label5" layoutX="24.0" layoutY="293.0" prefHeight="21.0" prefWidth="11.0" text="5" textFill="#bf0e0e">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="24.0" layoutY="358.0" prefHeight="21.0" prefWidth="11.0" text="4" textFill="#bf0e0e">
+      <Label fx:id="Label4" layoutX="24.0" layoutY="358.0" prefHeight="21.0" prefWidth="11.0" text="4" textFill="#bf0e0e">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="24.0" layoutY="423.0" prefHeight="21.0" prefWidth="11.0" text="3" textFill="#bf0e0e">
+      <Label fx:id="Label3" layoutX="24.0" layoutY="423.0" prefHeight="21.0" prefWidth="11.0" text="3" textFill="#bf0e0e">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="24.0" layoutY="488.0" prefHeight="21.0" prefWidth="11.0" text="2" textFill="#bf0e0e">
+      <Label fx:id="Label2" layoutX="24.0" layoutY="488.0" prefHeight="21.0" prefWidth="11.0" text="2" textFill="#bf0e0e">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="24.0" layoutY="553.0" prefHeight="21.0" prefWidth="11.0" text="1" textFill="#bf0e0e">
+      <Label fx:id="Label1" layoutX="24.0" layoutY="553.0" prefHeight="21.0" prefWidth="11.0" text="1" textFill="#bf0e0e">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="77.0" layoutY="618.0" prefHeight="21.0" prefWidth="11.0" text="a" textFill="#bf0e0e">
+      <Label fx:id="Labela" layoutX="77.0" layoutY="618.0" prefHeight="21.0" prefWidth="11.0" text="a" textFill="#bf0e0e">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="140.0" layoutY="618.0" prefHeight="21.0" prefWidth="11.0" text="b" textFill="#bf0e0e">
+      <Label fx:id="Labelb" layoutX="140.0" layoutY="618.0" prefHeight="21.0" prefWidth="11.0" text="b" textFill="#bf0e0e">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="203.0" layoutY="618.0" prefHeight="21.0" prefWidth="11.0" text="c" textFill="#bf0e0e">
+      <Label fx:id="Labelc" layoutX="203.0" layoutY="618.0" prefHeight="21.0" prefWidth="11.0" text="c" textFill="#bf0e0e">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="266.0" layoutY="618.0" prefHeight="21.0" prefWidth="11.0" text="d" textFill="#bf0e0e">
+      <Label fx:id="Labeld" layoutX="266.0" layoutY="618.0" prefHeight="21.0" prefWidth="11.0" text="d" textFill="#bf0e0e">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="329.0" layoutY="618.0" prefHeight="21.0" prefWidth="11.0" text="e" textFill="#bf0e0e">
+      <Label fx:id="Labele" layoutX="329.0" layoutY="618.0" prefHeight="21.0" prefWidth="11.0" text="e" textFill="#bf0e0e">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="392.0" layoutY="618.0" prefHeight="21.0" prefWidth="11.0" text="f" textFill="#bf0e0e">
+      <Label fx:id="Labelf" layoutX="392.0" layoutY="618.0" prefHeight="21.0" prefWidth="11.0" text="f" textFill="#bf0e0e">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="455.0" layoutY="618.0" prefHeight="21.0" prefWidth="11.0" text="g" textFill="#bf0e0e">
+      <Label fx:id="Labelg" layoutX="455.0" layoutY="618.0" prefHeight="21.0" prefWidth="11.0" text="g" textFill="#bf0e0e">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="524.0" layoutY="618.0" prefHeight="21.0" prefWidth="11.0" text="h" textFill="#bf0e0e">
+      <Label fx:id="Labelh" layoutX="524.0" layoutY="618.0" prefHeight="21.0" prefWidth="11.0" text="h" textFill="#bf0e0e">
          <font>
             <Font name="System Bold" size="18.0" />
          </font>
       </Label>
       <TextField layoutX="596.0" layoutY="606.0" prefHeight="23.0" prefWidth="182.0" promptText="Text Opponent Here..." />
-      <Circle fill="DODGERBLUE" layoutX="146.0" layoutY="110.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="83.0" layoutY="175.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="146.0" layoutY="240.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="209.0" layoutY="175.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="272.0" layoutY="240.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="272.0" layoutY="110.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="335.0" layoutY="175.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="398.0" layoutY="110.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="398.0" layoutY="240.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="461.0" layoutY="175.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="524.0" layoutY="110.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="DODGERBLUE" layoutX="524.0" layoutY="240.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="#2b28ab" layoutX="83.0" layoutY="435.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="#2b28ab" layoutX="83.0" layoutY="565.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="#2b28ab" layoutX="146.0" layoutY="500.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="#2b28ab" layoutX="209.0" layoutY="435.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="#2b28ab" layoutX="209.0" layoutY="565.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="#2b28ab" layoutX="272.0" layoutY="500.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="#2b28ab" layoutX="335.0" layoutY="435.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="#2b28ab" layoutX="335.0" layoutY="565.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="#2b28ab" layoutX="398.0" layoutY="500.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="#2b28ab" layoutX="461.0" layoutY="435.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="#2b28ab" layoutX="461.0" layoutY="565.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fill="#2b28ab" layoutX="524.0" layoutY="500.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l1" fill="DODGERBLUE" layoutX="146.0" layoutY="110.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l5" fill="DODGERBLUE" layoutX="83.0" layoutY="175.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l9" fill="DODGERBLUE" layoutX="146.0" layoutY="240.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l6" fill="DODGERBLUE" layoutX="209.0" layoutY="175.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l10" fill="DODGERBLUE" layoutX="272.0" layoutY="240.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l2" fill="DODGERBLUE" layoutX="272.0" layoutY="110.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l7" fill="DODGERBLUE" layoutX="335.0" layoutY="175.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l3" fill="DODGERBLUE" layoutX="398.0" layoutY="110.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l11" fill="DODGERBLUE" layoutX="398.0" layoutY="240.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l8" fill="DODGERBLUE" layoutX="461.0" layoutY="175.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l4" fill="DODGERBLUE" layoutX="524.0" layoutY="110.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l12" fill="DODGERBLUE" layoutX="524.0" layoutY="240.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="z9" fill="#2b28ab" layoutX="83.0" layoutY="435.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="z1" fill="#2b28ab" layoutX="83.0" layoutY="565.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="z5" fill="#2b28ab" layoutX="146.0" layoutY="500.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="z10" fill="#2b28ab" layoutX="209.0" layoutY="435.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="z2" fill="#2b28ab" layoutX="209.0" layoutY="565.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="z6" fill="#2b28ab" layoutX="272.0" layoutY="500.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="z11" fill="#2b28ab" layoutX="335.0" layoutY="435.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="z3" fill="#2b28ab" layoutX="335.0" layoutY="565.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="z7" fill="#2b28ab" layoutX="398.0" layoutY="500.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="z12" fill="#2b28ab" layoutX="461.0" layoutY="435.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="z4" fill="#2b28ab" layoutX="461.0" layoutY="565.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="z8" fill="#2b28ab" layoutX="524.0" layoutY="500.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
    </children>
 </Pane>
