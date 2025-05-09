@@ -122,3 +122,11 @@ public Label Label8;
 
 
 }
+
+
+//for security check;
+//check if other piece is close enough to jump
+// only allow pieces to go up 98 and right or left by 192;
+//only allow movement to green pieces
+//check if piece being moved is correct color
+//display counter to check if pieces are equal to zero
