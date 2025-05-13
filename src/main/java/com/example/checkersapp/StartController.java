@@ -41,7 +41,7 @@ public class StartController {
 
 
         System.out.println("play called");
-        FXMLLoader fxmlLoader = new            FXMLLoader(CheckersApplication.class.getResource("playView.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(CheckersApplication.class.getResource("playView.fxml"));
         Scene scene = new Scene(fxmlLoader.load(), 800, 650);
         Stage playStage = (Stage)playButton.getScene().getWindow();
         playStage.setTitle("CheckersApp");
