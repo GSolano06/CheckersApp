@@ -12,12 +12,12 @@ public class WriterThread implements Runnable {
     Socket socket;
     ArrayList<Socket> sockets;
     MessageController myController;
+    StartController connectController;
 
-    public WriterThread(Socket socket, ShoebQueue myData, MessageController myController) throws Exception {
+    public WriterThread(Socket socket, ShoebQueue myData, StartController connectController) throws Exception {
         this.socket = socket;
         this.myData = myData;
         this.isServer = false;
-        this.myController = myController;
     }
 
     public WriterThread(ArrayList<Socket> sockets, ShoebQueue myData, MessageController myController) throws Exception {

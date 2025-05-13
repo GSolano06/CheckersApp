@@ -2,8 +2,11 @@ package com.example.checkersapp;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
+import javafx.scene.input.MouseEvent;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Rectangle;
+
+import java.awt.event.MouseListener;
 
 
 public class PlayController {
@@ -100,7 +103,7 @@ public class PlayController {
     public Circle z8;
 
 //all labels
-public Label Label8;
+    public Label Label8;
     public Label Label7;
     public Label Label6;
     public Label Label5;
@@ -119,7 +122,10 @@ public Label Label8;
 
 
 
+public void pieceClicked() {
 
+
+}
 
 }
 
