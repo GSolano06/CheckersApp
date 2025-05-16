@@ -3,14 +3,23 @@ package com.example.checkersapp;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 import javafx.scene.input.MouseEvent;
+import javafx.scene.layout.Pane;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Rectangle;
+import java.util.ArrayList;
 
 import java.awt.event.MouseListener;
 
 
 public class PlayController {
-//all rectangles
+
+
+    //misc
+
+    public Pane Pain;
+
+    //all grid pieces
+
     public Rectangle a8;
     public Rectangle a7;
     public Rectangle a6;
@@ -76,7 +85,11 @@ public class PlayController {
     public Rectangle h1;
     public Rectangle h2;
 
-    //all circles
+    //all checkers pieces
+
+
+    //L = Light Blue Pieces
+
     public Circle l1;
     public Circle l5;
     public Circle l9;
@@ -103,7 +116,7 @@ public class PlayController {
     public Circle z8;
 
 //all labels
-    public Label Label8;
+public Label Label8;
     public Label Label7;
     public Label Label6;
     public Label Label5;
@@ -120,13 +133,29 @@ public class PlayController {
     public Label Labelg;
     public Label Labelh;
 
+    public void initialize() {
+
+    }
+
+    public void pieceClicked() {
+        System.out.println("Mr H: pieceClicked");
+
+    }
+
+    public void boardClicked() {
+        System.out.println("Mr H: boardClicked");
+
+    }
 
 
-public void pieceClicked() {
+    //array list for piece movement
+    //public static void main(String[] args) {
+       // ArrayList<String> Movement = new ArrayList<>();
+
+       // Movement.add();
 
 
-}
-
+   // }
 }
 
 
@@ -136,3 +165,4 @@ public void pieceClicked() {
 //only allow movement to green pieces
 //check if piece being moved is correct color
 //display counter to check if pieces are equal to zero
+

@@ -3,12 +3,12 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.TextArea?>
 <?import javafx.scene.control.TextField?>
-<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.shape.Circle?>
 <?import javafx.scene.shape.Rectangle?>
 <?import javafx.scene.text.Font?>
 
-<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="674.0" prefWidth="805.0" style="-fx-background-color: a1acac;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane fx:id="Pain" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="674.0" prefWidth="805.0" style="-fx-background-color: a1acac;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.checkersapp.PlayController">
    <children>
       <TextArea editable="false" layoutX="591.0" layoutY="93.0" prefHeight="488.0" prefWidth="192.0" />
       <Rectangle fx:id="a8" arcHeight="5.0" arcWidth="5.0" fill="#e785ff" height="65.0" layoutX="51.0" layoutY="77.0" stroke="#e785ff" strokeMiterLimit="0.0" strokeType="INSIDE" width="63.0" />
@@ -156,29 +156,29 @@
          </font>
       </Label>
       <TextField layoutX="596.0" layoutY="606.0" prefHeight="23.0" prefWidth="182.0" promptText="Text Opponent Here..." />
-      <Circle fx:id="l1" fill="DODGERBLUE" layoutX="146.0" layoutY="110.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="l5" fill="DODGERBLUE" layoutX="83.0" layoutY="175.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="l9" fill="DODGERBLUE" layoutX="146.0" layoutY="240.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="l6" fill="DODGERBLUE" layoutX="209.0" layoutY="175.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="l10" fill="DODGERBLUE" layoutX="272.0" layoutY="240.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="l2" fill="DODGERBLUE" layoutX="272.0" layoutY="110.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="l7" fill="DODGERBLUE" layoutX="335.0" layoutY="175.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="l3" fill="DODGERBLUE" layoutX="398.0" layoutY="110.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="l11" fill="DODGERBLUE" layoutX="398.0" layoutY="240.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="l8" fill="DODGERBLUE" layoutX="461.0" layoutY="175.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="l4" fill="DODGERBLUE" layoutX="524.0" layoutY="110.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="l12" fill="DODGERBLUE" layoutX="524.0" layoutY="240.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="z9" fill="#2b28ab" layoutX="83.0" layoutY="435.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="z1" fill="#2b28ab" layoutX="83.0" layoutY="565.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="z5" fill="#2b28ab" layoutX="146.0" layoutY="500.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="z10" fill="#2b28ab" layoutX="209.0" layoutY="435.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="z2" fill="#2b28ab" layoutX="209.0" layoutY="565.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="z6" fill="#2b28ab" layoutX="272.0" layoutY="500.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="z11" fill="#2b28ab" layoutX="335.0" layoutY="435.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="z3" fill="#2b28ab" layoutX="335.0" layoutY="565.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="z7" fill="#2b28ab" layoutX="398.0" layoutY="500.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="z12" fill="#2b28ab" layoutX="461.0" layoutY="435.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="z4" fill="#2b28ab" layoutX="461.0" layoutY="565.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
-      <Circle fx:id="z8" fill="#2b28ab" layoutX="524.0" layoutY="500.0" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l1" fill="DODGERBLUE" layoutX="146.0" layoutY="110.0" onMouseClicked="#l1movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l5" fill="DODGERBLUE" layoutX="83.0" layoutY="175.0" onMouseClicked="#l5movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l9" fill="DODGERBLUE" layoutX="146.0" layoutY="240.0" onMouseClicked="#l9movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l6" fill="DODGERBLUE" layoutX="209.0" layoutY="175.0" onMouseClicked="#l6movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l10" fill="DODGERBLUE" layoutX="272.0" layoutY="240.0" onMouseClicked="#l10movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l2" fill="DODGERBLUE" layoutX="272.0" layoutY="110.0" onMouseClicked="#l2movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l7" fill="DODGERBLUE" layoutX="335.0" layoutY="175.0" onMouseClicked="#l7movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l3" fill="DODGERBLUE" layoutX="398.0" layoutY="110.0" onMouseClicked="#l3movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l11" fill="DODGERBLUE" layoutX="398.0" layoutY="240.0" onMouseClicked="#l11movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l8" fill="DODGERBLUE" layoutX="461.0" layoutY="175.0" onMouseClicked="#l8movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l4" fill="DODGERBLUE" layoutX="524.0" layoutY="110.0" onMouseClicked="#l4movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l12" fill="DODGERBLUE" layoutX="524.0" layoutY="240.0" onMouseClicked="#l12movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="z9" fill="#2b28ab" layoutX="83.0" layoutY="435.0" onMouseClicked="#z9movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="z1" fill="#2b28ab" layoutX="83.0" layoutY="565.0" onMouseClicked="#z1movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="z5" fill="#2b28ab" layoutX="146.0" layoutY="500.0" onMouseClicked="#z5movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="z10" fill="#2b28ab" layoutX="209.0" layoutY="435.0" onMouseClicked="#z10movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="z2" fill="#2b28ab" layoutX="209.0" layoutY="565.0" onMouseClicked="#z2movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="z6" fill="#2b28ab" layoutX="272.0" layoutY="500.0" onMouseClicked="#z6movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="z11" fill="#2b28ab" layoutX="335.0" layoutY="435.0" onMouseClicked="#z11movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="z3" fill="#2b28ab" layoutX="335.0" layoutY="565.0" onMouseClicked="#z3movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="z7" fill="#2b28ab" layoutX="398.0" layoutY="500.0" onMouseClicked="#z7movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="z12" fill="#2b28ab" layoutX="461.0" layoutY="435.0" onMouseClicked="#z12movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="z4" fill="#2b28ab" layoutX="461.0" layoutY="565.0" onMouseClicked="#z4movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="z8" fill="#2b28ab" layoutX="524.0" layoutY="500.0" onMouseClicked="#z8movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
    </children>
-</Pane>
+</AnchorPane>
