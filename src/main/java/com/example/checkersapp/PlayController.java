@@ -142,7 +142,101 @@ public Label Label8;
 
     }
 
-    public void boardClicked() {
+    public void l2movement() {
+        System.out.println("Mr H: pieceClicked");
+
+    }
+
+    public void l3movement() {
+        System.out.println("Mr H: pieceClicked");
+    }
+
+    public void l4movement() {
+        System.out.println("Mr H: pieceClicked");
+    }
+
+    public void l5movement() {
+        System.out.println("Mr H: pieceClicked");
+    }
+
+    public void l6movement() {
+        System.out.println("Mr H: pieceClicked");
+    }
+
+    public void l7movement() {
+        System.out.println("Mr H: pieceClicked");
+    }
+
+    public void l8movement() {
+        System.out.println("Mr H: pieceClicked");
+    }
+
+    public void l9movement() {
+        System.out.println("Mr H: pieceClicked");
+    }
+
+    public void l10movement() {
+        System.out.println("Mr H: pieceClicked");
+    }
+
+    public void l11movement() {
+        System.out.println("Mr H: pieceClicked");
+    }
+
+    public void l12movement() {
+        System.out.println("Mr H: pieceClicked");
+    }
+
+    public void z1movement() {
+        System.out.println("Mr H: pieceClicked");
+    }
+
+    public void z2movement() {
+        System.out.println("Mr H: pieceClicked");
+    }
+
+    public void z3movement() {
+        System.out.println("Mr H: pieceClicked");
+    }
+
+    public void z4movement() {
+        System.out.println("Mr H: pieceClicked");
+    }
+
+    public void z5movement() {
+        System.out.println("Mr H: pieceClicked");
+    }
+
+    public void z6movement() {
+        System.out.println("Mr H: pieceClicked");
+    }
+
+    public void z7movement() {
+        System.out.println("Mr H: pieceClicked");
+    }
+
+    public void z8movement() {
+        System.out.println("Mr H: pieceClicked");
+    }
+
+    public void z9movement() {
+        System.out.println("Mr H: pieceClicked");
+    }
+
+    public void z10movement() {
+        System.out.println("Mr H: pieceClicked");
+    }
+
+    public void z11movement() {
+        System.out.println("Mr H: pieceClicked");
+    }
+
+    public void z12movement() {
+        System.out.println("Mr H: pieceClicked");
+    }
+
+
+    public void b8Clicked() {
         System.out.println("Mr H: boardClicked");
 
     }
