@@ -156,7 +156,7 @@
          </font>
       </Label>
       <TextField layoutX="596.0" layoutY="606.0" prefHeight="23.0" prefWidth="182.0" promptText="Text Opponent Here..." />
-      <Circle fx:id="l1" fill="DODGERBLUE" layoutX="146.0" layoutY="110.0" onMouseClicked="#pieceClicked" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
+      <Circle fx:id="l1" fill="DODGERBLUE" layoutX="146.0" layoutY="110.0" onMouseClicked="#l1movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fx:id="l5" fill="DODGERBLUE" layoutX="83.0" layoutY="175.0" onMouseClicked="#l5movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fx:id="l9" fill="DODGERBLUE" layoutX="146.0" layoutY="240.0" onMouseClicked="#l9movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />
       <Circle fx:id="l6" fill="DODGERBLUE" layoutX="209.0" layoutY="175.0" onMouseClicked="#l6movement" radius="24.0" stroke="BLACK" strokeType="INSIDE" />

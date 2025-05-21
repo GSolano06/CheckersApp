@@ -19,6 +19,7 @@ public class PlayController {
     public Pane Pain;
 
     //all grid pieces
+public String PieceClicked = null;
 
     public Rectangle a8;
     public Rectangle a7;
@@ -137,107 +138,682 @@ public Label Label8;
 
     }
 
-    public void pieceClicked() {
-        System.out.println("Mr H: pieceClicked");
-
+    public void l1movement() {
+//show clicked code
+        
+        l1.setStrokeWidth(3);
+        l2.setStrokeWidth(1);
+        l3.setStrokeWidth(1);
+        l4.setStrokeWidth(1);
+        l5.setStrokeWidth(1);
+        l6.setStrokeWidth(1);
+        l7.setStrokeWidth(1);
+        l8.setStrokeWidth(1);
+        l9.setStrokeWidth(1);
+        l10.setStrokeWidth(1);
+        l11.setStrokeWidth(1);
+        l12.setStrokeWidth(1);
+        z1.setStrokeWidth(1);
+        z2.setStrokeWidth(1);
+        z3.setStrokeWidth(1);
+        z4.setStrokeWidth(1);
+        z5.setStrokeWidth(1);
+        z6.setStrokeWidth(1);
+        z7.setStrokeWidth(1);
+        z8.setStrokeWidth(1);
+        z9.setStrokeWidth(1);
+        z10.setStrokeWidth(1);
+        z11.setStrokeWidth(1);
+        z12.setStrokeWidth(1);
     }
 
     public void l2movement() {
-        System.out.println("Mr H: pieceClicked");
-
+//show clicked code
+        l1.setStrokeWidth(1);
+        l2.setStrokeWidth(3);
+        l3.setStrokeWidth(1);
+        l4.setStrokeWidth(1);
+        l5.setStrokeWidth(1);
+        l6.setStrokeWidth(1);
+        l7.setStrokeWidth(1);
+        l8.setStrokeWidth(1);
+        l9.setStrokeWidth(1);
+        l10.setStrokeWidth(1);
+        l11.setStrokeWidth(1);
+        l12.setStrokeWidth(1);
+        z1.setStrokeWidth(1);
+        z2.setStrokeWidth(1);
+        z3.setStrokeWidth(1);
+        z4.setStrokeWidth(1);
+        z5.setStrokeWidth(1);
+        z6.setStrokeWidth(1);
+        z7.setStrokeWidth(1);
+        z8.setStrokeWidth(1);
+        z9.setStrokeWidth(1);
+        z10.setStrokeWidth(1);
+        z11.setStrokeWidth(1);
+        z12.setStrokeWidth(1);
     }
 
     public void l3movement() {
-        System.out.println("Mr H: pieceClicked");
+//show clicked code
+        l1.setStrokeWidth(1);
+        l2.setStrokeWidth(1);
+        l3.setStrokeWidth(3);
+        l4.setStrokeWidth(1);
+        l5.setStrokeWidth(1);
+        l6.setStrokeWidth(1);
+        l7.setStrokeWidth(1);
+        l8.setStrokeWidth(1);
+        l9.setStrokeWidth(1);
+        l10.setStrokeWidth(1);
+        l11.setStrokeWidth(1);
+        l12.setStrokeWidth(1);
+        z1.setStrokeWidth(1);
+        z2.setStrokeWidth(1);
+        z3.setStrokeWidth(1);
+        z4.setStrokeWidth(1);
+        z5.setStrokeWidth(1);
+        z6.setStrokeWidth(1);
+        z7.setStrokeWidth(1);
+        z8.setStrokeWidth(1);
+        z9.setStrokeWidth(1);
+        z10.setStrokeWidth(1);
+        z11.setStrokeWidth(1);
+        z12.setStrokeWidth(1);
     }
 
     public void l4movement() {
-        System.out.println("Mr H: pieceClicked");
+//show clicked code
+        l1.setStrokeWidth(1);
+        l2.setStrokeWidth(1);
+        l3.setStrokeWidth(1);
+        l4.setStrokeWidth(3);
+        l5.setStrokeWidth(1);
+        l6.setStrokeWidth(1);
+        l7.setStrokeWidth(1);
+        l8.setStrokeWidth(1);
+        l9.setStrokeWidth(1);
+        l10.setStrokeWidth(1);
+        l11.setStrokeWidth(1);
+        l12.setStrokeWidth(1);
+        z1.setStrokeWidth(1);
+        z2.setStrokeWidth(1);
+        z3.setStrokeWidth(1);
+        z4.setStrokeWidth(1);
+        z5.setStrokeWidth(1);
+        z6.setStrokeWidth(1);
+        z7.setStrokeWidth(1);
+        z8.setStrokeWidth(1);
+        z9.setStrokeWidth(1);
+        z10.setStrokeWidth(1);
+        z11.setStrokeWidth(1);
+        z12.setStrokeWidth(1);
     }
 
     public void l5movement() {
-        System.out.println("Mr H: pieceClicked");
+//show clicked code
+        l1.setStrokeWidth(1);
+        l2.setStrokeWidth(1);
+        l3.setStrokeWidth(1);
+        l4.setStrokeWidth(1);
+        l5.setStrokeWidth(3);
+        l6.setStrokeWidth(1);
+        l7.setStrokeWidth(1);
+        l8.setStrokeWidth(1);
+        l9.setStrokeWidth(1);
+        l10.setStrokeWidth(1);
+        l11.setStrokeWidth(1);
+        l12.setStrokeWidth(1);
+        z1.setStrokeWidth(1);
+        z2.setStrokeWidth(1);
+        z3.setStrokeWidth(1);
+        z4.setStrokeWidth(1);
+        z5.setStrokeWidth(1);
+        z6.setStrokeWidth(1);
+        z7.setStrokeWidth(1);
+        z8.setStrokeWidth(1);
+        z9.setStrokeWidth(1);
+        z10.setStrokeWidth(1);
+        z11.setStrokeWidth(1);
+        z12.setStrokeWidth(1);
     }
 
     public void l6movement() {
-        System.out.println("Mr H: pieceClicked");
+//show clicked code
+        l1.setStrokeWidth(1);
+        l2.setStrokeWidth(1);
+        l3.setStrokeWidth(1);
+        l4.setStrokeWidth(1);
+        l5.setStrokeWidth(1);
+        l6.setStrokeWidth(3);
+        l7.setStrokeWidth(1);
+        l8.setStrokeWidth(1);
+        l9.setStrokeWidth(1);
+        l10.setStrokeWidth(1);
+        l11.setStrokeWidth(1);
+        l12.setStrokeWidth(1);
+        z1.setStrokeWidth(1);
+        z2.setStrokeWidth(1);
+        z3.setStrokeWidth(1);
+        z4.setStrokeWidth(1);
+        z5.setStrokeWidth(1);
+        z6.setStrokeWidth(1);
+        z7.setStrokeWidth(1);
+        z8.setStrokeWidth(1);
+        z9.setStrokeWidth(1);
+        z10.setStrokeWidth(1);
+        z11.setStrokeWidth(1);
+        z12.setStrokeWidth(1);
     }
 
     public void l7movement() {
-        System.out.println("Mr H: pieceClicked");
+//show clicked code
+        l1.setStrokeWidth(1);
+        l2.setStrokeWidth(1);
+        l3.setStrokeWidth(1);
+        l4.setStrokeWidth(1);
+        l5.setStrokeWidth(1);
+        l6.setStrokeWidth(1);
+        l7.setStrokeWidth(3);
+        l8.setStrokeWidth(1);
+        l9.setStrokeWidth(1);
+        l10.setStrokeWidth(1);
+        l11.setStrokeWidth(1);
+        l12.setStrokeWidth(1);
+        z1.setStrokeWidth(1);
+        z2.setStrokeWidth(1);
+        z3.setStrokeWidth(1);
+        z4.setStrokeWidth(1);
+        z5.setStrokeWidth(1);
+        z6.setStrokeWidth(1);
+        z7.setStrokeWidth(1);
+        z8.setStrokeWidth(1);
+        z9.setStrokeWidth(1);
+        z10.setStrokeWidth(1);
+        z11.setStrokeWidth(1);
+        z12.setStrokeWidth(1);
     }
 
     public void l8movement() {
-        System.out.println("Mr H: pieceClicked");
+//show clicked code
+        l1.setStrokeWidth(1);
+        l2.setStrokeWidth(1);
+        l3.setStrokeWidth(1);
+        l4.setStrokeWidth(1);
+        l5.setStrokeWidth(1);
+        l6.setStrokeWidth(1);
+        l7.setStrokeWidth(1);
+        l8.setStrokeWidth(3);
+        l9.setStrokeWidth(1);
+        l10.setStrokeWidth(1);
+        l11.setStrokeWidth(1);
+        l12.setStrokeWidth(1);
+        z1.setStrokeWidth(1);
+        z2.setStrokeWidth(1);
+        z3.setStrokeWidth(1);
+        z4.setStrokeWidth(1);
+        z5.setStrokeWidth(1);
+        z6.setStrokeWidth(1);
+        z7.setStrokeWidth(1);
+        z8.setStrokeWidth(1);
+        z9.setStrokeWidth(1);
+        z10.setStrokeWidth(1);
+        z11.setStrokeWidth(1);
+        z12.setStrokeWidth(1);
     }
 
     public void l9movement() {
-        System.out.println("Mr H: pieceClicked");
+//show clicked code
+        l1.setStrokeWidth(1);
+        l2.setStrokeWidth(1);
+        l3.setStrokeWidth(1);
+        l4.setStrokeWidth(1);
+        l5.setStrokeWidth(1);
+        l6.setStrokeWidth(1);
+        l7.setStrokeWidth(1);
+        l8.setStrokeWidth(1);
+        l9.setStrokeWidth(3);
+        l10.setStrokeWidth(1);
+        l11.setStrokeWidth(1);
+        l12.setStrokeWidth(1);
+        z1.setStrokeWidth(1);
+        z2.setStrokeWidth(1);
+        z3.setStrokeWidth(1);
+        z4.setStrokeWidth(1);
+        z5.setStrokeWidth(1);
+        z6.setStrokeWidth(1);
+        z7.setStrokeWidth(1);
+        z8.setStrokeWidth(1);
+        z9.setStrokeWidth(1);
+        z10.setStrokeWidth(1);
+        z11.setStrokeWidth(1);
+        z12.setStrokeWidth(1);
     }
 
     public void l10movement() {
-        System.out.println("Mr H: pieceClicked");
+//show clicked code
+        l1.setStrokeWidth(1);
+        l2.setStrokeWidth(1);
+        l3.setStrokeWidth(1);
+        l4.setStrokeWidth(1);
+        l5.setStrokeWidth(1);
+        l6.setStrokeWidth(1);
+        l7.setStrokeWidth(1);
+        l8.setStrokeWidth(1);
+        l9.setStrokeWidth(1);
+        l10.setStrokeWidth(3);
+        l11.setStrokeWidth(1);
+        l12.setStrokeWidth(1);
+        z1.setStrokeWidth(1);
+        z2.setStrokeWidth(1);
+        z3.setStrokeWidth(1);
+        z4.setStrokeWidth(1);
+        z5.setStrokeWidth(1);
+        z6.setStrokeWidth(1);
+        z7.setStrokeWidth(1);
+        z8.setStrokeWidth(1);
+        z9.setStrokeWidth(1);
+        z10.setStrokeWidth(1);
+        z11.setStrokeWidth(1);
+        z12.setStrokeWidth(1);
     }
 
     public void l11movement() {
-        System.out.println("Mr H: pieceClicked");
+//show clicked code
+        l1.setStrokeWidth(1);
+        l2.setStrokeWidth(1);
+        l3.setStrokeWidth(1);
+        l4.setStrokeWidth(1);
+        l5.setStrokeWidth(1);
+        l6.setStrokeWidth(1);
+        l7.setStrokeWidth(1);
+        l8.setStrokeWidth(1);
+        l9.setStrokeWidth(1);
+        l10.setStrokeWidth(1);
+        l11.setStrokeWidth(3);
+        l12.setStrokeWidth(1);
+        z1.setStrokeWidth(1);
+        z2.setStrokeWidth(1);
+        z3.setStrokeWidth(1);
+        z4.setStrokeWidth(1);
+        z5.setStrokeWidth(1);
+        z6.setStrokeWidth(1);
+        z7.setStrokeWidth(1);
+        z8.setStrokeWidth(1);
+        z9.setStrokeWidth(1);
+        z10.setStrokeWidth(1);
+        z11.setStrokeWidth(1);
+        z12.setStrokeWidth(1);
     }
 
     public void l12movement() {
-        System.out.println("Mr H: pieceClicked");
+//show clicked code
+        l1.setStrokeWidth(1);
+        l2.setStrokeWidth(1);
+        l3.setStrokeWidth(1);
+        l4.setStrokeWidth(1);
+        l5.setStrokeWidth(1);
+        l6.setStrokeWidth(1);
+        l7.setStrokeWidth(1);
+        l8.setStrokeWidth(1);
+        l9.setStrokeWidth(1);
+        l10.setStrokeWidth(1);
+        l11.setStrokeWidth(1);
+        l12.setStrokeWidth(3);
+        z1.setStrokeWidth(1);
+        z2.setStrokeWidth(1);
+        z3.setStrokeWidth(1);
+        z4.setStrokeWidth(1);
+        z5.setStrokeWidth(1);
+        z6.setStrokeWidth(1);
+        z7.setStrokeWidth(1);
+        z8.setStrokeWidth(1);
+        z9.setStrokeWidth(1);
+        z10.setStrokeWidth(1);
+        z11.setStrokeWidth(1);
+        z12.setStrokeWidth(1);
     }
 
     public void z1movement() {
-        System.out.println("Mr H: pieceClicked");
+//show clicked code
+        l1.setStrokeWidth(1);
+        l2.setStrokeWidth(1);
+        l3.setStrokeWidth(1);
+        l4.setStrokeWidth(1);
+        l5.setStrokeWidth(1);
+        l6.setStrokeWidth(1);
+        l7.setStrokeWidth(1);
+        l8.setStrokeWidth(1);
+        l9.setStrokeWidth(1);
+        l10.setStrokeWidth(1);
+        l11.setStrokeWidth(1);
+        l12.setStrokeWidth(1);
+        z1.setStrokeWidth(3);
+        z2.setStrokeWidth(1);
+        z3.setStrokeWidth(1);
+        z4.setStrokeWidth(1);
+        z5.setStrokeWidth(1);
+        z6.setStrokeWidth(1);
+        z7.setStrokeWidth(1);
+        z8.setStrokeWidth(1);
+        z9.setStrokeWidth(1);
+        z10.setStrokeWidth(1);
+        z11.setStrokeWidth(1);
+        z12.setStrokeWidth(1);
     }
 
     public void z2movement() {
-        System.out.println("Mr H: pieceClicked");
+//show clicked code
+        l1.setStrokeWidth(1);
+        l2.setStrokeWidth(1);
+        l3.setStrokeWidth(1);
+        l4.setStrokeWidth(1);
+        l5.setStrokeWidth(1);
+        l6.setStrokeWidth(1);
+        l7.setStrokeWidth(1);
+        l8.setStrokeWidth(1);
+        l9.setStrokeWidth(1);
+        l10.setStrokeWidth(1);
+        l11.setStrokeWidth(1);
+        l12.setStrokeWidth(1);
+        z1.setStrokeWidth(1);
+        z2.setStrokeWidth(3);
+        z3.setStrokeWidth(1);
+        z4.setStrokeWidth(1);
+        z5.setStrokeWidth(1);
+        z6.setStrokeWidth(1);
+        z7.setStrokeWidth(1);
+        z8.setStrokeWidth(1);
+        z9.setStrokeWidth(1);
+        z10.setStrokeWidth(1);
+        z11.setStrokeWidth(1);
+        z12.setStrokeWidth(1);
     }
 
     public void z3movement() {
-        System.out.println("Mr H: pieceClicked");
+//show clicked code
+        l1.setStrokeWidth(1);
+        l2.setStrokeWidth(1);
+        l3.setStrokeWidth(1);
+        l4.setStrokeWidth(1);
+        l5.setStrokeWidth(1);
+        l6.setStrokeWidth(1);
+        l7.setStrokeWidth(1);
+        l8.setStrokeWidth(1);
+        l9.setStrokeWidth(1);
+        l10.setStrokeWidth(1);
+        l11.setStrokeWidth(1);
+        l12.setStrokeWidth(1);
+        z1.setStrokeWidth(1);
+        z2.setStrokeWidth(1);
+        z3.setStrokeWidth(3);
+        z4.setStrokeWidth(1);
+        z5.setStrokeWidth(1);
+        z6.setStrokeWidth(1);
+        z7.setStrokeWidth(1);
+        z8.setStrokeWidth(1);
+        z9.setStrokeWidth(1);
+        z10.setStrokeWidth(1);
+        z11.setStrokeWidth(1);
+        z12.setStrokeWidth(1);
     }
 
     public void z4movement() {
-        System.out.println("Mr H: pieceClicked");
+//show clicked code
+        l1.setStrokeWidth(1);
+        l2.setStrokeWidth(1);
+        l3.setStrokeWidth(1);
+        l4.setStrokeWidth(1);
+        l5.setStrokeWidth(1);
+        l6.setStrokeWidth(1);
+        l7.setStrokeWidth(1);
+        l8.setStrokeWidth(1);
+        l9.setStrokeWidth(1);
+        l10.setStrokeWidth(1);
+        l11.setStrokeWidth(1);
+        l12.setStrokeWidth(1);
+        z1.setStrokeWidth(1);
+        z2.setStrokeWidth(1);
+        z3.setStrokeWidth(1);
+        z4.setStrokeWidth(3);
+        z5.setStrokeWidth(1);
+        z6.setStrokeWidth(1);
+        z7.setStrokeWidth(1);
+        z8.setStrokeWidth(1);
+        z9.setStrokeWidth(1);
+        z10.setStrokeWidth(1);
+        z11.setStrokeWidth(1);
+        z12.setStrokeWidth(1);
     }
 
     public void z5movement() {
-        System.out.println("Mr H: pieceClicked");
+//show clicked code
+        l1.setStrokeWidth(1);
+        l2.setStrokeWidth(1);
+        l3.setStrokeWidth(1);
+        l4.setStrokeWidth(1);
+        l5.setStrokeWidth(1);
+        l6.setStrokeWidth(1);
+        l7.setStrokeWidth(1);
+        l8.setStrokeWidth(1);
+        l9.setStrokeWidth(1);
+        l10.setStrokeWidth(1);
+        l11.setStrokeWidth(1);
+        l12.setStrokeWidth(1);
+        z1.setStrokeWidth(1);
+        z2.setStrokeWidth(1);
+        z3.setStrokeWidth(1);
+        z4.setStrokeWidth(1);
+        z5.setStrokeWidth(3);
+        z6.setStrokeWidth(1);
+        z7.setStrokeWidth(1);
+        z8.setStrokeWidth(1);
+        z9.setStrokeWidth(1);
+        z10.setStrokeWidth(1);
+        z11.setStrokeWidth(1);
+        z12.setStrokeWidth(1);
     }
 
     public void z6movement() {
-        System.out.println("Mr H: pieceClicked");
+//show clicked code
+        l1.setStrokeWidth(1);
+        l2.setStrokeWidth(1);
+        l3.setStrokeWidth(1);
+        l4.setStrokeWidth(1);
+        l5.setStrokeWidth(1);
+        l6.setStrokeWidth(1);
+        l7.setStrokeWidth(1);
+        l8.setStrokeWidth(1);
+        l9.setStrokeWidth(1);
+        l10.setStrokeWidth(1);
+        l11.setStrokeWidth(1);
+        l12.setStrokeWidth(1);
+        z1.setStrokeWidth(1);
+        z2.setStrokeWidth(1);
+        z3.setStrokeWidth(1);
+        z4.setStrokeWidth(1);
+        z5.setStrokeWidth(1);
+        z6.setStrokeWidth(3);
+        z7.setStrokeWidth(1);
+        z8.setStrokeWidth(1);
+        z9.setStrokeWidth(1);
+        z10.setStrokeWidth(1);
+        z11.setStrokeWidth(1);
+        z12.setStrokeWidth(1);
     }
 
     public void z7movement() {
-        System.out.println("Mr H: pieceClicked");
+//show clicked code
+        l1.setStrokeWidth(1);
+        l2.setStrokeWidth(1);
+        l3.setStrokeWidth(1);
+        l4.setStrokeWidth(1);
+        l5.setStrokeWidth(1);
+        l6.setStrokeWidth(1);
+        l7.setStrokeWidth(1);
+        l8.setStrokeWidth(1);
+        l9.setStrokeWidth(1);
+        l10.setStrokeWidth(1);
+        l11.setStrokeWidth(1);
+        l12.setStrokeWidth(1);
+        z1.setStrokeWidth(1);
+        z2.setStrokeWidth(1);
+        z3.setStrokeWidth(1);
+        z4.setStrokeWidth(1);
+        z5.setStrokeWidth(1);
+        z6.setStrokeWidth(1);
+        z7.setStrokeWidth(3);
+        z8.setStrokeWidth(1);
+        z9.setStrokeWidth(1);
+        z10.setStrokeWidth(1);
+        z11.setStrokeWidth(1);
+        z12.setStrokeWidth(1);
     }
 
     public void z8movement() {
-        System.out.println("Mr H: pieceClicked");
+//show clicked code
+        l1.setStrokeWidth(1);
+        l2.setStrokeWidth(1);
+        l3.setStrokeWidth(1);
+        l4.setStrokeWidth(1);
+        l5.setStrokeWidth(1);
+        l6.setStrokeWidth(1);
+        l7.setStrokeWidth(1);
+        l8.setStrokeWidth(1);
+        l9.setStrokeWidth(1);
+        l10.setStrokeWidth(1);
+        l11.setStrokeWidth(1);
+        l12.setStrokeWidth(1);
+        z1.setStrokeWidth(1);
+        z2.setStrokeWidth(1);
+        z3.setStrokeWidth(1);
+        z4.setStrokeWidth(1);
+        z5.setStrokeWidth(1);
+        z6.setStrokeWidth(1);
+        z7.setStrokeWidth(1);
+        z8.setStrokeWidth(3);
+        z9.setStrokeWidth(1);
+        z10.setStrokeWidth(1);
+        z11.setStrokeWidth(1);
+        z12.setStrokeWidth(1);
     }
 
     public void z9movement() {
-        System.out.println("Mr H: pieceClicked");
+//show clicked code
+        l1.setStrokeWidth(1);
+        l2.setStrokeWidth(1);
+        l3.setStrokeWidth(1);
+        l4.setStrokeWidth(1);
+        l5.setStrokeWidth(1);
+        l6.setStrokeWidth(1);
+        l7.setStrokeWidth(1);
+        l8.setStrokeWidth(1);
+        l9.setStrokeWidth(1);
+        l10.setStrokeWidth(1);
+        l11.setStrokeWidth(1);
+        l12.setStrokeWidth(1);
+        z1.setStrokeWidth(1);
+        z2.setStrokeWidth(1);
+        z3.setStrokeWidth(1);
+        z4.setStrokeWidth(1);
+        z5.setStrokeWidth(1);
+        z6.setStrokeWidth(1);
+        z7.setStrokeWidth(1);
+        z8.setStrokeWidth(1);
+        z9.setStrokeWidth(3);
+        z10.setStrokeWidth(1);
+        z11.setStrokeWidth(1);
+        z12.setStrokeWidth(1);
     }
 
     public void z10movement() {
-        System.out.println("Mr H: pieceClicked");
+//show clicked code
+        l1.setStrokeWidth(1);
+        l2.setStrokeWidth(1);
+        l3.setStrokeWidth(1);
+        l4.setStrokeWidth(1);
+        l5.setStrokeWidth(1);
+        l6.setStrokeWidth(1);
+        l7.setStrokeWidth(1);
+        l8.setStrokeWidth(1);
+        l9.setStrokeWidth(1);
+        l10.setStrokeWidth(1);
+        l11.setStrokeWidth(1);
+        l12.setStrokeWidth(1);
+        z1.setStrokeWidth(1);
+        z2.setStrokeWidth(1);
+        z3.setStrokeWidth(1);
+        z4.setStrokeWidth(1);
+        z5.setStrokeWidth(1);
+        z6.setStrokeWidth(1);
+        z7.setStrokeWidth(1);
+        z8.setStrokeWidth(1);
+        z9.setStrokeWidth(1);
+        z10.setStrokeWidth(3);
+        z11.setStrokeWidth(1);
+        z12.setStrokeWidth(1);
     }
 
     public void z11movement() {
-        System.out.println("Mr H: pieceClicked");
+//show clicked code
+        l1.setStrokeWidth(1);
+        l2.setStrokeWidth(1);
+        l3.setStrokeWidth(1);
+        l4.setStrokeWidth(1);
+        l5.setStrokeWidth(1);
+        l6.setStrokeWidth(1);
+        l7.setStrokeWidth(1);
+        l8.setStrokeWidth(1);
+        l9.setStrokeWidth(1);
+        l10.setStrokeWidth(1);
+        l11.setStrokeWidth(1);
+        l12.setStrokeWidth(1);
+        z1.setStrokeWidth(1);
+        z2.setStrokeWidth(1);
+        z3.setStrokeWidth(1);
+        z4.setStrokeWidth(1);
+        z5.setStrokeWidth(1);
+        z6.setStrokeWidth(1);
+        z7.setStrokeWidth(1);
+        z8.setStrokeWidth(1);
+        z9.setStrokeWidth(1);
+        z10.setStrokeWidth(1);
+        z11.setStrokeWidth(3);
+        z12.setStrokeWidth(1);
     }
 
     public void z12movement() {
-        System.out.println("Mr H: pieceClicked");
+//show clicked code
+        l1.setStrokeWidth(1);
+        l2.setStrokeWidth(1);
+        l3.setStrokeWidth(1);
+        l4.setStrokeWidth(1);
+        l5.setStrokeWidth(1);
+        l6.setStrokeWidth(1);
+        l7.setStrokeWidth(1);
+        l8.setStrokeWidth(1);
+        l9.setStrokeWidth(1);
+        l10.setStrokeWidth(1);
+        l11.setStrokeWidth(1);
+        l12.setStrokeWidth(1);
+        z1.setStrokeWidth(1);
+        z2.setStrokeWidth(1);
+        z3.setStrokeWidth(1);
+        z4.setStrokeWidth(1);
+        z5.setStrokeWidth(1);
+        z6.setStrokeWidth(1);
+        z7.setStrokeWidth(1);
+        z8.setStrokeWidth(1);
+        z9.setStrokeWidth(1);
+        z10.setStrokeWidth(1);
+        z11.setStrokeWidth(1);
+        z12.setStrokeWidth(3);
     }
 
 
     public void b8Clicked() {
-        System.out.println("Mr H: boardClicked");
+
 
     }
 
