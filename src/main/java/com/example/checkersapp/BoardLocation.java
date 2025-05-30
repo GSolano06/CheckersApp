@@ -8,12 +8,16 @@ public class BoardLocation {
     Rectangle boardTile;
     Boolean allowedMove;
     Piece myPiece;
+    Boolean topEdge;
+    Boolean bottomEdge;
     static ArrayList<BoardLocation> allBoardLocations = new ArrayList<>();
 
-    public BoardLocation(Rectangle boardTile, Boolean allowedMove, Piece myPiece) {
+    public BoardLocation(Rectangle boardTile, Boolean allowedMove, Boolean topEdge, Boolean bottomEdge, Piece myPiece) {
         this.boardTile = boardTile;
         this.allowedMove = allowedMove;
         this.myPiece = myPiece;
+        this.topEdge = topEdge;
+        this.bottomEdge = bottomEdge;
         allBoardLocations.add(this);
     }
 

@@ -1,16 +1,10 @@
 package com.example.checkersapp;
 
-import javafx.fxml.FXML;
 import javafx.scene.control.Label;
-import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.Pane;
 import javafx.scene.shape.Circle;
 import javafx.scene.shape.Rectangle;
 import java.util.ArrayList;
-
-import java.util.Arrays;
-import java.util.Collection;
-import java.util.List;
 
 
 public class PlayController {
@@ -137,64 +131,143 @@ public Label Label8;
     public Label Labelh;
 
     public void initialize() {
-        Piece piece1 = new Piece(true, l1, false, null);
-        Piece piece2 = new Piece(true, l2, false, null);
-        Piece piece3 = new Piece(true, l3, false, null);
-        Piece piece4 = new Piece(true, l4, false, null);
-        Piece piece5 = new Piece(true, l5, false, null);
-        Piece piece6 = new Piece(true, l6, false, null);
-        Piece piece7 = new Piece(true, l7, false, null);
-        Piece piece8 = new Piece(true, l8, false, null);
-        Piece piece9 = new Piece(true, l9, false, null);
-        Piece piece10 = new Piece(true, l10, false, null);
-        Piece piece11 = new Piece(true, l11, false, null);
-        Piece piece12 = new Piece(true, l12, false, null);
+        Piece light1 = new Piece(true, l1, false, null);
+        Piece light2 = new Piece(true, l2, false, null);
+        Piece light3 = new Piece(true, l3, false, null);
+        Piece light4 = new Piece(true, l4, false, null);
+        Piece light5 = new Piece(true, l5, false, null);
+        Piece light6 = new Piece(true, l6, false, null);
+        Piece light7 = new Piece(true, l7, false, null);
+        Piece light8 = new Piece(true, l8, false, null);
+        Piece light9 = new Piece(true, l9, false, null);
+        Piece light10 = new Piece(true, l10, false, null);
+        Piece light11 = new Piece(true, l11, false, null);
+        Piece light12 = new Piece(true, l12, false, null);
 
-        Piece piece13 = new Piece(true, z1, false, null);
-        Piece piece14 = new Piece(true, z2, false, null);
-        Piece piece15 = new Piece(true, z3, false, null);
-        Piece piece16 = new Piece(true, z4, false, null);
-        Piece piece17 = new Piece(true, z5, false, null);
-        Piece piece18 = new Piece(true, z6, false, null);
-        Piece piece19 = new Piece(true, z7, false, null);
-        Piece piece20 = new Piece(true, z8, false, null);
-        Piece piece21 = new Piece(true, z9, false, null);
-        Piece piece22 = new Piece(true, z10, false, null);
-        Piece piece23 = new Piece(true, z11, false, null);
-        Piece piece24 = new Piece(true, z12, false, null);
+        Piece dark1 = new Piece(true, z1, false, null);
+        Piece dark2 = new Piece(true, z2, false, null);
+        Piece dark3 = new Piece(true, z3, false, null);
+        Piece dark4 = new Piece(true, z4, false, null);
+        Piece dark5 = new Piece(true, z5, false, null);
+        Piece dark6 = new Piece(true, z6, false, null);
+        Piece dark7 = new Piece(true, z7, false, null);
+        Piece dark8 = new Piece(true, z8, false, null);
+        Piece dark9 = new Piece(true, z9, false, null);
+        Piece dark10 = new Piece(true, z10, false, null);
+        Piece dark11 = new Piece(true, z11, false, null);
+        Piece dark12 = new Piece(true, z12, false, null);
 
-        BoardLocation location1 = new BoardLocation(a1,false,null);
-        BoardLocation location2 = new BoardLocation(a3,false,null);
-        BoardLocation location3 = new BoardLocation(a5,false,null);
-        BoardLocation location4 = new BoardLocation(a7,false,null);
-        BoardLocation location5 = new BoardLocation(b2,false,null);
-        BoardLocation location6 = new BoardLocation(b4,false,null);
-        BoardLocation location7 = new BoardLocation(b6,false,null);
-        BoardLocation location8 = new BoardLocation(b8,false,null);
-        BoardLocation location9 = new BoardLocation(c1,false,null);
-        BoardLocation location10 = new BoardLocation(c3,false,null);
-        BoardLocation location11 = new BoardLocation(c5,false,null);
-        BoardLocation location12 = new BoardLocation(c7,false,null);
-        BoardLocation location13 = new BoardLocation(d2,false,null);
-        BoardLocation location14 = new BoardLocation(d4,false,null);
-        BoardLocation location15 = new BoardLocation(d6,false,null);
-        BoardLocation location16 = new BoardLocation(d8,false,null);
-        BoardLocation location17 = new BoardLocation(e1,false,null);
-        BoardLocation location18 = new BoardLocation(e3,false,null);
-        BoardLocation location19 = new BoardLocation(e5,false,null);
-        BoardLocation location20 = new BoardLocation(e7,false,null);
-        BoardLocation location21 = new BoardLocation(f2,false,null);
-        BoardLocation location22 = new BoardLocation(f4,false,null);
-        BoardLocation location23 = new BoardLocation(f6,false,null);
-        BoardLocation location24 = new BoardLocation(f8,false,null);
-        BoardLocation location25 = new BoardLocation(g1,false,null);
-        BoardLocation location26 = new BoardLocation(g3,false,null);
-        BoardLocation location27 = new BoardLocation(g5,false,null);
-        BoardLocation location28 = new BoardLocation(g7,false,null);
-        BoardLocation location29 = new BoardLocation(h2,false,null);
-        BoardLocation location30 = new BoardLocation(h4,false,null);
-        BoardLocation location31 = new BoardLocation(h6,false,null);
-        BoardLocation location32 = new BoardLocation(h8,false,null);
+        BoardLocation aOne = new BoardLocation(a1,false,false, true, null);
+        BoardLocation aThree = new BoardLocation(a3,false,false, false,null);
+        BoardLocation aFive = new BoardLocation(a5,false,false, false,null);
+        BoardLocation aSeven = new BoardLocation(a7,false,false,false,null);
+        BoardLocation bTwo = new BoardLocation(b2,false,false,false,null);
+        BoardLocation bFour = new BoardLocation(b4,false,false,false,null);
+        BoardLocation bSix = new BoardLocation(b6,false,false,false,null);
+        BoardLocation bEight = new BoardLocation(b8,false,true,false,null);
+        BoardLocation cOne = new BoardLocation(c1,false,false,true,null);
+        BoardLocation cThree = new BoardLocation(c3,false,false,false,null);
+        BoardLocation cFive = new BoardLocation(c5,false,false,false,null);
+        BoardLocation cSeven = new BoardLocation(c7,false,false,false,null);
+        BoardLocation dTwo = new BoardLocation(d2,false,false,false,null);
+        BoardLocation dFour = new BoardLocation(d4,false,false,false,null);
+        BoardLocation dSix = new BoardLocation(d6,false,false,false,null);
+        BoardLocation dEight = new BoardLocation(d8,false,true,false,null);
+        BoardLocation eOne = new BoardLocation(e1,false,false,true,null);
+        BoardLocation eThree = new BoardLocation(e3,false,false,false,null);
+        BoardLocation eFive = new BoardLocation(e5,false,false,false,null);
+        BoardLocation eSeven = new BoardLocation(e7,false,false,false,null);
+        BoardLocation fTwo = new BoardLocation(f2,false,false,false,null);
+        BoardLocation fFour = new BoardLocation(f4,false,false,false,null);
+        BoardLocation fSix = new BoardLocation(f6,false,false,false,null);
+        BoardLocation fEight = new BoardLocation(f8,false,true,false,null);
+        BoardLocation gOne = new BoardLocation(g1,false,false,true,null);
+        BoardLocation gThree = new BoardLocation(g3,false,false,false,null);
+        BoardLocation gFive = new BoardLocation(g5,false,false,false,null);
+        BoardLocation gSeven = new BoardLocation(g7,false,false,false,null);
+        BoardLocation hTwo = new BoardLocation(h2,false,false,false,null);
+        BoardLocation hFour = new BoardLocation(h4,false,false,false,null);
+        BoardLocation hSix = new BoardLocation(h6,false,false,false,null);
+        BoardLocation hEight = new BoardLocation(h8,false,true,false,null);
+
+        // Row 8
+        light1.setMyLocation(bEight);
+        bEight.setMyPiece(light1);
+
+        light2.setMyLocation(dEight);
+        dEight.setMyPiece(light2);
+
+        light3.setMyLocation(fEight);
+        fEight.setMyPiece(light3);
+
+        light4.setMyLocation(hEight);
+        hEight.setMyPiece(light4);
+
+// Row 7
+        light5.setMyLocation(aSeven);
+        aSeven.setMyPiece(light5);
+
+        light6.setMyLocation(cSeven);
+        cSeven.setMyPiece(light6);
+
+        light7.setMyLocation(eSeven);
+        eSeven.setMyPiece(light7);
+
+        light8.setMyLocation(gSeven);
+        gSeven.setMyPiece(light8);
+
+// Row 6
+        light9.setMyLocation(bSix);
+        bSix.setMyPiece(light9);
+
+        light10.setMyLocation(dSix);
+        dSix.setMyPiece(light10);
+
+        light11.setMyLocation(fSix);
+        fSix.setMyPiece(light11);
+
+        light12.setMyLocation(hSix);
+        hSix.setMyPiece(light12);
+
+// Row 1
+        dark1.setMyLocation(aOne);
+        aOne.setMyPiece(dark1);
+
+        dark2.setMyLocation(cOne);
+        cOne.setMyPiece(dark2);
+
+        dark3.setMyLocation(eOne);
+        eOne.setMyPiece(dark3);
+
+        dark4.setMyLocation(gOne);
+        gOne.setMyPiece(dark4);
+
+// Row 2
+        dark5.setMyLocation(bTwo);
+        bTwo.setMyPiece(dark5);
+
+        dark6.setMyLocation(dTwo);
+        dTwo.setMyPiece(dark6);
+
+        dark7.setMyLocation(fTwo);
+        fTwo.setMyPiece(dark7);
+
+        dark8.setMyLocation(hTwo);
+        hTwo.setMyPiece(dark8);
+
+// Row 3
+        dark9.setMyLocation(aThree);
+        aThree.setMyPiece(dark9);
+
+        dark10.setMyLocation(cThree);
+        cThree.setMyPiece(dark10);
+
+        dark11.setMyLocation(eThree);
+        eThree.setMyPiece(dark11);
+
+        dark12.setMyLocation(gThree);
+        gThree.setMyPiece(dark12);
+
     }
 
     public void l1movement() {
